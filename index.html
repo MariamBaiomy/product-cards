@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/97ec883103.js" crossorigin="anonymous"></script>
+    <title>ProductCards</title>
+</head>
+<body>
+    <header>
+        <div class="headCont">
+                <h3 id="count-display"></h3>
+                <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+        </div>
+    </header>
+    <section id="sec1">
+        <div id="menu">
+             <!-- menuContent -->
+                <div id="cont1"></div>
+                <div id="cont2"></div>
+                <div id="cont3"></div>
+                <div id="cont4"></div>
+                <div id="cont5"></div>
+                <div id="cont6"></div>
+        </div>
+        <div class="container">
+            <!-- cards -->
+            <div id="cards" class="cards-container">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/bag.jpg" alt="">
+                    </div>
+                    <h2>Bag</h2>
+                    <h4>$45.00</h4>
+                    <a href="javascript:;" class="btnView" data-name="p-1">QUICK VIEW</a>
+                    <a href="javascript:;" class="btnAdd" data-name="add1">ADD TO CART</a>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/cap.jpg" alt="">
+                    </div>
+                    <h2>Cap</h2>
+                    <h4>$25.00</h4>
+                    <a href="javascript:;" class="btnView" data-name="p-2">QUICK VIEW</a>
+                    <a href="javascript:;" class="btnAdd" data-name="add2">ADD TO CART</a>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/phone.jpg" alt="">
+                    </div>
+                    <h2>Phone</h2>
+                    <h4>$145.00</h4>
+                    <a href="javascript:;#" class="btnView" data-name="p-3">QUICK VIEW</a>
+                    <a href="javascript:;" class="btnAdd" data-name="add3">ADD TO CART</a>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/shoes.jpg" alt="">
+                    </div>
+                    <h2>Shoes</h2>
+                    <h4>$55.00</h4>
+                    <a href="javascript:;" class="btnView" data-name="p-4">QUICK VIEW</a>
+                    <a href="javascript:;" class="btnAdd" data-name="add4">ADD TO CART</a>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/tshirt.jpg" alt="">
+                    </div>
+                    <h2>T-shirt</h2>
+                    <h4>$35.00</h4>
+                    <a href="javascript:;" class="btnView" data-name="p-5">QUICK VIEW</a>
+                    <a href="javascript:;" class="btnAdd" data-name="add5">ADD TO CART</a>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/watch.jpg" alt="">
+                    </div>
+                    <h2>Watch</h2>
+                    <h4>$75.00</h4>
+                    <a href="javascript:;" class="btnView" data-name="p-6">QUICK VIEW</a>
+                    <a href="javascript:;" class="btnAdd" data-name="add6">ADD TO CART</a>
+                </div>
+            </div>
+     <!-- modals -->
+     <div class="modals-container">
+        <div id="modal1" class="modal" data-target="p-1">
+            <div class="modal-content">
+                <span class="close" data-name="p-1">&times;</span>
+            <img src="img/bag.jpg" alt="">
+               <h2>Bag</h2>
+               <h4>$45.00</h4>
+            </div>
+          </div>
+          <div id="modal2" class="modal" data-target="p-2">
+              <div class="modal-content">
+              <span class="close" data-name="p-2">&times;</span>
+              <img src="img/cap.jpg" alt="">
+                 <h2>Cap</h2>
+                 <h4>$25.00</h4>
+              </div>
+            </div>
+            <div id="modal3" class="modal" data-target="p-3">
+              <div class="modal-content">
+              <span class="close" data-name="p-3">&times;</span>
+              <img src="img/phone.jpg" alt="">
+                 <h2>Phone</h2>
+                 <h4>$145.00</h4>
+              </div>
+            </div>
+            <div id="modal4" class="modal" data-target="p-4">
+              <div class="modal-content">
+              <span class="close" data-name="p-4">&times;</span>
+              <img src="img/shoes.jpg" alt="">
+                 <h2>Shoes</h2>
+                 <h4>$55.00</h4>
+              </div>
+            </div>
+            <div id="modal5" class="modal" data-target="p-5">
+              <div class="modal-content">
+              <span class="close" data-name="p-5">&times;</span>
+              <img src="img/tshirt.jpg" alt="">
+                 <h2>T-shirt</h2>
+                 <h4>$35.00</h4>
+              </div>
+            </div>
+            <div id="modal6" class="modal" data-target="p-6">
+              <div class="modal-content">
+              <span class="close" data-name="p-6">&times;</span>
+              <img src="img/watch.jpg" alt="">
+                 <h2>Watch</h2>
+                 <h4>$75.00</h4>
+              </div>
+            </div>
+     </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
